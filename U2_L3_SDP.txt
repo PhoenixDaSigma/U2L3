@@ -1,0 +1,9 @@
+1. It should be updated in self.place_token. In Tic-Tac-Toe, shapes are placed during a turn, so self.place_token should be used during a turn.
+
+2. I could index the cells of the list using a number 1-9, and access those cells based on a line of user input. For this, it would be a long if statement, but it would definitely work well.
+
+3. __check_win() should be called from the is_winner() function. is_winner just returns if the player has won or not, so its entire purpose is to use __check_win(). It should have the board as an argument to check for win conditions.
+
+4. The user input function would make it so the user can input their tile choice. Also, a function for the computer to play is absolutely necessary, so the player has an opponent to play against. It should return the computer's move so the board can be updated.
+
+5. I was going to just put a big if statement detailing all the win conditions.
